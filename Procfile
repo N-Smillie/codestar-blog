@@ -1,1 +1,1 @@
-web: gunicorn codestar.wsgi
+web: python -m gunicorn codestar.wsgi
